@@ -10,9 +10,9 @@ const Footer = () => (
         <div className="mb-[50px] h-[2px] bg-white opacity-10" />
 
         <div className="flex items-center justify-between flex-wrap gap-4">
-          <h4 className="font-extrabold text-[24px] text-white">xPromptNFT</h4>
+          <h4 className="font-extrabold text-[24px] text-white">Active Nft</h4>
           <p className="font-normal text-[14px] text-white opacity-50">
-            Copyright © 2023 xPromptNFT. All rights reserved.
+            Copyright © 2023 Active Nft. All rights reserved.
           </p>
 
           <div className="flex gap-4">

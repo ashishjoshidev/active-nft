@@ -10,10 +10,10 @@ const Hero = () => {
           <span className="text-transparent bg-clip-text bg-primer">
             Dream It, Mint It, Own It
           </span>{" "}
-          XpromptNFT AI Makes Your Imagination Marketable!
+          Active Nft AI Makes Your Imagination Marketable!
         </p>
         <p className="max-w-[936px] text-center mt-3 sm:mt-4 text-base sm:text-xl text-gray-170 font-normal transition-all">
-          Unlock the Power of AI to Craft, Mint, and Trade Unique NFTs: Your Imagination, Our Marketplace. Welcome to xpromptNFT AI!
+          Unlock the Power of AI to Craft, Mint, and Trade Unique NFTs: Your Imagination, Our Marketplace. Welcome to Active Nft AI!
         </p>
         <button
           type="button"

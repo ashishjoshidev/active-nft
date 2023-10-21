@@ -78,7 +78,7 @@ const connectors = connectorsForWallets([
       injectedWallet({ chains }),
       rainbowWallet({ projectId, chains }),
       metaMaskWallet({ projectId, chains }),
-      coinbaseWallet({ chains, appName: 'xPromptNFT' }),
+      coinbaseWallet({ chains, appName: 'Active Nft' }),
       walletConnectWallet({ projectId, chains }),
     ],
   },

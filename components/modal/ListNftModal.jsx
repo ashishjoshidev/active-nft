@@ -30,14 +30,14 @@ const ListNftModal = ({
     const provider = new ethers.providers.Web3Provider(window.ethereum);
     const signer = provider.getSigner();
 
-    const xpromptNftContract = new ethers.Contract(
+    const Active NftContract = new ethers.Contract(
       config.xpromptV3,
       XPromptV3,
       signer
     );
 
     // Approve the marketplace contract to manage the user's tokens
-    const approveTx = await xpromptNftContract.setApprovalForAll(
+    const approveTx = await Active NftContract.setApprovalForAll(
       config.xPromptMarketplace,
       true
     );
