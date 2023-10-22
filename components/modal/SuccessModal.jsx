@@ -45,7 +45,7 @@ const SuccessModal = ({ txHash, openMintModal, handleOnClose }) => {
                   <div className="mt-2">
                     <p className="text-sm text-gray-500">
                       You can now proceed to verify your transaction on the
-                      Etherscan.
+                      Scroll scan.
                       <br /> <br />
                     </p>
                   </div>
@@ -58,9 +58,9 @@ const SuccessModal = ({ txHash, openMintModal, handleOnClose }) => {
                     >
                       <a
                         target="_blank"
-                        href={'https://testnet.bscscan.com/tx/' + txHash}
+                        href={'https://sepolia.scrollscan.dev/tx/' + txHash}
                       >
-                        Confirm on BSC Scan
+                        Confirm on Scroll Scan
                       </a>
                     </button>
                     &nbsp;&nbsp;&nbsp;

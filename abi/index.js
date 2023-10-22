@@ -1,7 +1,12 @@
 const config = {
-  xpromptV3: '0x74c9edBe1f78De461F78957ceFeCb210849b38BA',
-  xPromptMarketplace: '0x2839A137EA0B4c29DF7E77Fc5Bed40637eb397f0',
+  xpromptV3: '0x0D6fcE9d61b994324aaE9d7c6b098366Ef268d23',
+  xPromptMarketplace: '0x5C015A5B096aD5Efe876F81487264bf4A2546f2d',
 };
+// const config = { opbnb
+//   xpromptV3: '0x74c9edBe1f78De461F78957ceFeCb210849b38BA',
+//   xPromptMarketplace: '0x2839A137EA0B4c29DF7E77Fc5Bed40637eb397f0',
+// };
+
 
 module.exports = { config };
 // xpromptV3: '0x1dfe74fee3ff775e8ecd8d44ee9813364561f569',

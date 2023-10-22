@@ -3,7 +3,7 @@ import { darkTheme } from '@rainbow-me/rainbowkit';
 import { getDefaultWallets } from '@rainbow-me/rainbowkit';
 import { configureChains, createClient, WagmiConfig } from 'wagmi';
 import { publicProvider } from 'wagmi/providers/public';
-import {  bscTestnet } from 'wagmi/chains';
+import { goerli, bscTestnet } from 'wagmi/chains';
 import {
   RainbowKitProvider,
   connectorsForWallets,
@@ -40,28 +40,29 @@ import { DataProvider } from '@/context/DataContext';
     },
     testnet: true,
   };
-  const GreenfieldTestnet = {
-    id: 5600,
-    name: 'Greenfield Mekong Testnet',
-    network: 'Greenfield Mekong Testnet',
+  const ScrollSepoliaTestnet = {
+    id: 534351,
+    name: 'Scroll Sepolia Testnet',
+    network: 'Scroll Sepolia Testnet',
     nativeCurrency: {
       decimals: 18,
-      name: 'Greenfield Mekong Testnet',
-      symbol: 'tBNB',
+      name: 'Scroll Sepolia Testnet',
+      symbol: 'ETH',
     },
     rpcUrls: {
-      public: { http: ['https://gnfd-testnet-fullnode-tendermint-us.bnbchain.org'] },
-      default: { http: ['https://gnfd-testnet-fullnode-tendermint-us.bnbchain.org'] },
+      public: { http: ['https://scroll-sepolia.blockpi.network/v1/rpc/public'] },
+      default: { http: ['https://scroll-sepolia.blockpi.network/v1/rpc/public'] },
     },
     blockExplorers: {
-      default: { name: 'Greenfieldscan', url: 'https://greenfieldscan.com' },
-      etherscan: { name: 'Greenfieldscan', url: 'https://greenfieldscan.com' },
+      default: { name: 'Greenfieldscan', url: 'https://sepolia.scrollscan.dev' },
+      etherscan: { name: 'Greenfieldscan', url: 'https://sepolia.scrollscan.dev' },
     },
     testnet: true,
-  };
+};
+
 
 const { provider, chains } = configureChains(
-  [bscTestnet,opBNBTestnet,GreenfieldTestnet],
+  [goerli,ScrollSepoliaTestnet],
   [
     jsonRpcProvider({
       rpc: (chain) => ({ http: chain.rpcUrls.default.http[0] }),
