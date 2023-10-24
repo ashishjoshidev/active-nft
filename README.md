@@ -41,6 +41,10 @@ In a groundbreaking move, we've deployed our smart contracts using Mantle Networ
 
 In our project, we've harnessed the power of Polygon, a robust and scalable blockchain network, to enhance transaction efficiency and reduce costs. By integrating Polygon, we've achieved lightning-fast transaction speeds and significantly lowered gas fees, ensuring a seamless user experience while interacting with our platform. This integration exemplifies our dedication to providing users with a frictionless and cost-effective blockchain solution.
 
+#### ActiveNFT Smart Contract : [0x706556fB9faEEBB53d409bF892062914A173409c](https://mumbai.polygonscan.com/address/0x706556fB9faEEBB53d409bF892062914A173409c)
+
+#### ActiveNFT Marketplace Smart Contract : [0xd306fC860faD9418A3913cbAf1889dbbEcEdF2B4](https://testnet.mantlescan.org/tx/0xd306fC860faD9418A3913cbAf1889dbbEcEdF2B4)
+
 ---
 
 
