@@ -1,4 +1,4 @@
-Spark (spark.fi) Integration Coming Soon!
+## Spark Integration Coming Soon!
 
 We're thrilled to share a sneak peek into the future of our project! We're partnering with Spark (spark.fi), a cutting-edge platform that's redefining decentralized finance. By integrating Spark, we're introducing a host of groundbreaking features designed to elevate your experience to unprecedented levels. Get ready for enhanced security, lightning-fast transactions, and a user interface that's sleeker and more intuitive than ever before.
 
