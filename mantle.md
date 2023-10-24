@@ -7,4 +7,4 @@ In a groundbreaking move, we've deployed our smart contracts using Mantle Networ
 [0xfA940D4e421139a50138c265C73B15E21dCcc129](https://testnet.mantlescan.org/tx/0xfA940D4e421139a50138c265C73B15E21dCcc129)
 
 #### ActiveNFT Marketplace Smart Contract
-0xA8Cc16C4441A99301790D60cF0627CaBD3517F42](https://testnet.mantlescan.org/tx/0xA8Cc16C4441A99301790D60cF0627CaBD3517F42)
+[0xA8Cc16C4441A99301790D60cF0627CaBD3517F42](https://testnet.mantlescan.org/tx/0xA8Cc16C4441A99301790D60cF0627CaBD3517F42)
